@@ -1,0 +1,93 @@
+.container .coloums{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width:  1440px;
+    padding-left: 11%;
+    padding-top: 10%;   
+}
+
+.container .coloums .colo{
+    width: 280px;
+    background-color: beige;
+    padding: 30px 40px 30px 40px;
+}   
+
+.container .coloums .col-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.container .coloums .col-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.container .coloums .col-3{
+    background-color: hsl(179, 100%, 13%);
+}
+#m1{
+    color: hsl(31, 77%, 52%);
+}
+#m2{
+    color: hsl(184, 100%, 22%);
+}
+#m3{
+    color: hsl(179, 100%, 13%);
+}
+
+.container .coloums .colo img{
+
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+.container .coloums .colo .topic{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 45px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+.container .coloums .colo .content{
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    line-height: 1.7rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.container .coloums .colo .more{
+    font-size: 22px;
+    border-radius: 25px;
+    border-color: transparent;
+    padding: 15px;
+}
+
+
+
+/********************** Active State ********************/
+#m1:active{
+    background-color:  hsl(31, 77%, 52%);
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
+#m2:active{
+    background-color:  hsl(184, 100%, 22%);
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
+#m3:active{
+    background-color:  hsl(179, 100%, 13%);
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
+
+@media screen and (width: 375px) {
+    .container {
+      display: block;
+    }
+  }
